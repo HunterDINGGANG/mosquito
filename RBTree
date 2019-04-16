@@ -633,11 +633,11 @@ func RBTreeTest1(){
     
     for _,key:=range arr1{
 
-		rt = rbt.insert_nd(key)
+	rt = rbt.insert_nd(key)
 		
-		if (rt == EXISTED) {
-			fmt.Printf("OOP!RB tree node existed (%v)\n",key)
-		}	
+	if (rt == EXISTED) {
+		fmt.Printf("OOP!RB tree node existed (%v)\n",key)
+	}	
     }
 
     rbt.walk_nd()
@@ -726,8 +726,8 @@ func RBTreeTest3(){
 
 func main() {
 
-	//RBTreeTest1()
-	//RBTreeTest2()
+	RBTreeTest1()
+	RBTreeTest2()
 	RBTreeTest3()
     
 
